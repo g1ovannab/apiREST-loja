@@ -1,0 +1,19 @@
+{
+  "name": "apirest-estagio",
+  "version": "1.0.0",
+  "description": "O desafio consiste em criar uma API REST para uma loja (fictícia) de Star Wars que será consumida por um aplicativo (Android e IOS). Todos os itens serão colocados em um carrinho do lado do aplicativo e passados para a API para realizar uma transação e-commerce.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "nodemon": "^2.0.7",
+    "uuid": "^8.3.2"
+  }
+}
